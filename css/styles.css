@@ -1,0 +1,43 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 17%, rgba(150,195,209,1) 100%);
+    font-family: 'Bungee', cursive;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+h1 img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px #155265;
+    margin: 10px;
+}
+
+#header {
+    text-align: center;
+    background-color: #155265;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #96C3D1;
+}
+
+#header h1 {
+    color: #96C3D1;
+    font-size: 300%;
+}
+
+#teho {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px #155265;
+    float: right; /* TÄMÄ PITÄÄ MUUTTAA MOBIILIIN */
+    
+}
