@@ -2,6 +2,10 @@
     border: 1px solid black;
 } */
 
+* {
+    text-align: center;
+}
+
 body {
     background: linear-gradient(90deg, rgba(255,255,255,1) 17%, rgba(150,195,209,1) 100%);
     font-family: 'Bungee', cursive;
@@ -18,12 +22,11 @@ nav {
 h1 img {
     width: 100px;
     height: 100px;
-    box-shadow: 5px #155265;
+    box-shadow: 5px 10px 8px #155265;
     margin: 10px;
 }
 
 #header {
-    text-align: center;
     background-color: #155265;
     padding: 10px;
     box-shadow: 5px 10px 8px #96C3D1;
@@ -38,6 +41,22 @@ h1 img {
     width: 80%;
     border-radius: 50%;
     box-shadow: 5px 10px 8px #155265;
-    float: right; /* TÄMÄ PITÄÄ MUUTTAA MOBIILIIN */
-    
+    margin: 20px 0 20px 0;
+}
+
+.btn {
+    background-color: #155265;
+    color: #96C3D1;
+    display: block;
+    margin: 5px;
+    box-shadow: 5px 10px 8px #96C3D1;
+}
+
+#buttonsDiv {
+    align-self: center;
+}
+
+
+p {
+    color: #155265;
 }
