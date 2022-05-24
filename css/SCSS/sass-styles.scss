@@ -2,6 +2,14 @@
     border: 1px solid black;
 } */
 
+$darker: #155265;
+$lighter: #96C3D1;
+
+@mixin smallerfont($colour: #155265) {
+    font-family: 'Oxanium', cursive;
+    color: $colour;
+}
+
 * {
     text-align: center;
 }
@@ -19,44 +27,62 @@ nav {
     margin-bottom: 30px;
 }
 
-h1 img {
-    width: 100px;
-    height: 100px;
-    box-shadow: 5px 10px 8px #155265;
-    margin: 10px;
-}
-
 #header {
-    background-color: #155265;
+    background-color: $darker;
     padding: 10px;
-    box-shadow: 5px 10px 8px #96C3D1;
-}
-
-#header h1 {
-    color: #96C3D1;
-    font-size: 300%;
+    box-shadow: 5px 10px 8px $lighter;
+    h1 {
+        color: $lighter;
+        font-size: 300%;
+        img {
+            width: 100px;
+            height: 100px;
+            box-shadow: 5px 10px 8px $darker;
+            margin: 10px;
+        }
+    }
 }
 
 #teho {
     width: 80%;
     border-radius: 50%;
-    box-shadow: 5px 10px 8px #155265;
+    box-shadow: 5px 10px 8px $darker;
     margin: 20px 0 20px 0;
 }
 
 .btn {
-    background-color: #155265;
+    background-color: $darker;
     color: #96C3D1;
     display: block;
     margin: 5px;
-    box-shadow: 5px 10px 8px #96C3D1;
+    box-shadow: 5px 10px 8px $lighter;
 }
 
 #buttonsDiv {
     align-self: center;
 }
 
+.smallerfont {
+    @include smallerfont;
+}
 
-p {
-    color: #155265;
+ul li {
+    list-style: none;
+}
+
+.list-group-item {
+    border: #96C3D1 solid 2px;
+}
+
+footer img {
+    width: 40px;
+}
+
+.col-md-3 {
+    padding: 0 10px 0 10px;
+    img {
+        width: 280px;
+        box-shadow: 5px 10px 8px $lighter;
+        margin: 10px 10px 30px 10px ;
+    }
 }
