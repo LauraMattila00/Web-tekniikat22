@@ -9,9 +9,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oxanium&display=swap" rel="stylesheet">
   <!-- My CSS File -->
-  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/SCSS/built-styles.css">
   <title>Teho-osasto</title>
 </head>
 <body>
@@ -48,7 +48,80 @@
         <h1><img src="../images/sydan.png" alt="sydan" class="img-fluid">TEHO-OSASTO</h1>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h4 class="smallerfont">Tehohoitopotilaan hoitoon ja osaston toimintaan osallistuu paljon henkilökuntaa eri osaamisaloilta.</h4>
+        <hr>
+
+        <!-- Bootstrap Accordion code -->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Lääkärihenkilöstö
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body smallerfont">Osastolla on aina vähintään kaksi tehohoitolääkäriä ympäri vuorokauden. Eri erikoisalojen lääkäreiden asiantuntemus on myös saatavilla ympäri vuorokauden.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Hoitohenkilöstö
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body smallerfont">Potilaalla on aina oma tehohoitoon perehtynyt sairaanhoitaja. Lisäksi hoitotiimiin kuuluu lähihoitajia sekä potilaiden päivittäiseen kuntoutuksen osallistuva fysioterapeutti.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Muu henkilöstö
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body smallerfont">Lisäksi hoitoa ja toimintaa takaamassa ovat osastofarmaseutit, lääkintävahtimestarit, sihteerit, väline- ja sairaalahuoltajat.</div>
+            </div>
+          </div>
+        </div>
+        <!-- Accordion ends -->
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <!-- Bootstrap Carousel starts-->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <img src="../images/hoitaja3.jpg" class="d-block w-100" alt="hoitaja">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <img src="../images/hoitaja2.jpg" class="d-block w-100" alt="hoitaja">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel ends-->
+      </div>
+      <div class="col-md-3"></div>
+    </div>
   </div>
+  <footer>
+    <hr>
+    <p class="smallerfont"><img src="../images/sydan.png" alt="sydan"> Laura Mattila TIK22KM</p>
+  </footer>
 
   
 
