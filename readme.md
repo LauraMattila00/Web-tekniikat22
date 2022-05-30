@@ -1,1 +1,1 @@
-Tämä on testaamista varten
+Tässä repositoriossa on Web-tekniikat -kurssiin kuuluva sivustotehtävä.
