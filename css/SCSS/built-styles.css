@@ -14,8 +14,50 @@ nav {
   margin-bottom: 10px;
 }
 
-.row {
+ul li {
+  list-style: none;
+}
+
+footer img {
+  width: 40px;
+}
+
+[class^=row] {
   margin-bottom: 30px;
+}
+
+.picture {
+  border: #155265 solid 10px;
+}
+
+.picture2 {
+  border: #6bc5e1 solid 10px;
+}
+
+.btn {
+  background-color: #155265;
+  color: #96C3D1;
+  display: block;
+  margin: 5px;
+  box-shadow: 5px 10px 8px #96C3D1;
+}
+
+.smallerfont {
+  font-family: "Oxanium", cursive;
+  color: #155265;
+}
+
+.col-md-3 {
+  padding: 0 10px 0 10px;
+}
+.col-md-3 img {
+  width: 280px;
+  box-shadow: 5px 10px 8px #96C3D1;
+  margin: 10px 10px 30px 10px;
+}
+
+.list-group-item {
+  border: #96C3D1 solid 2px;
 }
 
 #header {
@@ -41,54 +83,12 @@ nav {
   margin: 20px 0 20px 0;
 }
 
-.btn {
-  background-color: #155265;
-  color: #96C3D1;
-  display: block;
-  margin: 5px;
-  box-shadow: 5px 10px 8px #96C3D1;
-}
-
 #buttonsDiv {
   align-self: center;
 }
 
-.smallerfont {
-  font-family: "Oxanium", cursive;
-  color: #155265;
-}
-
-ul li {
-  list-style: none;
-}
-
-.list-group-item {
-  border: #96C3D1 solid 2px;
-}
-
-footer img {
-  width: 40px;
-}
-
-.col-md-3 {
-  padding: 0 10px 0 10px;
-}
-.col-md-3 img {
-  width: 280px;
-  box-shadow: 5px 10px 8px #96C3D1;
-  margin: 10px 10px 30px 10px;
-}
-
 #hengityskone2, #dialyysi2 {
   width: 300px;
-}
-
-.picture {
-  border: #155265 solid 10px;
-}
-
-.picture2 {
-  border: #6bc5e1 solid 10px;
 }
 
 /*# sourceMappingURL=built-styles.css.map */
